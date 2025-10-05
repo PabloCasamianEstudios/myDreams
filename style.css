@@ -29,8 +29,29 @@ body {
     position: relative;
 }
 
+.header__title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.header__icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.header__icon:hover {
+    transform: scale(1.05) rotate(5deg);
+}
+
 .header__title {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     color: var(--primary);
     margin-bottom: 10px;
     font-weight: 700;
@@ -78,6 +99,35 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.header__filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px 0;
+    padding: 0 20px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    background: white;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--primary);
+    color: white;
+    transform: translateY(-2px);
+}
+
 
 /* LIST */
 
@@ -152,19 +202,19 @@ body {
 }
 
 .dream-number {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  background: var(--accent);
-  color: white;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 0.9rem;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--accent);
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.9rem;
 }
 
 
@@ -252,26 +302,36 @@ body {
 }
 
 .dream-number-grid {
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background: var(--accent);
-  color: white;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 0.8rem;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: var(--accent);
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 
 /* Responsive */
 
 @media (max-width: 768px) {
-    h1 {
-        font-size: 2.5rem;
+    .header__title-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__title {
+        font-size: 2.3rem;
     }
 
     .dreams-grid {
@@ -287,4 +347,14 @@ body {
         margin-right: 0;
         margin-bottom: 15px;
     }
+
+    .header__filters {
+        gap: 8px;
+    }
+
+    .filter-btn {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
 }

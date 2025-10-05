@@ -1,16 +1,30 @@
 {
   "dreams": [
     {
-      "title": "Casa",
+      "title": "Flips Flops",
+      "description": "Hacer front, back, side y kork flips.",
+      "icon": "fa-arrows-rotate",
+      "category": "Skills",
+      "priority": "high"
+    },
+    {
+      "title": "Casita",
       "description": "Quiero una casa de 2 plantas, con jardín y una piscina bien grandota. Ojalá en medio del monte, sin ruido ni gente.",
       "icon": "fa-house",
       "category": "Family",
       "priority": "low"
     },
+     {
+      "title": "Trabajar como Front-end",
+      "description": "Ganarme la vida trabajando como desarrollador Front-end en una empresa que me guste.",
+      "icon": "fa-computer",
+      "category": "Skills",
+      "priority": "high"
+    },
     {
-      "title": "Aprender Skate",
+      "title": "Hacer Skate",
       "description": "Quiero aprender a ir en skate y dominar trucos básicos como ollies y kickflips.",
-      "icon": "fa-skating",
+      "icon": "fa-person-snowboarding",
       "category": "Skills",
       "priority": "medium"
     },
@@ -21,10 +35,24 @@
       "category": "Skills",
       "priority": "medium"
     },
+    {
+      "title": "Aprender a tocar el piano",
+      "description": "El vituoso me llamaban.",
+      "icon": "fa-keyboard",
+      "category": "Skills",
+      "priority": "medium"
+    },
+    {
+      "title": "Aprender a hablar en Gorila",
+      "description": "Aprender a hablar en idioma gorila.",
+      "icon": "fa-tree",
+      "category": "Skills",
+      "priority": "medium"
+    },
      {
       "title": "Repostería",
       "description": "Quiero aprender a hacer dulces porque soy un puto gocho.",
-      "icon": "fa-cake-slice",
+      "icon": "fa-cheese",
       "category": "Skills",
       "priority": "medium"
     },

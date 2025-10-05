@@ -12,7 +12,7 @@ window.onload = async function () {
     gridView.classList.remove("active");
     list.classList.add("active");
     grid.classList.remove("active");
-    viewDreamList();
+    viewDreamList(dreams);
   });
 
   gridView.addEventListener("click", () => {
@@ -20,10 +20,37 @@ window.onload = async function () {
     listView.classList.remove("active");
     grid.classList.add("active");
     list.classList.remove("active");
-    viewDreamGrid();
+    viewDreamGrid(dreams);
   });
 
   // functions
+
+  function setupFilters() {
+    const filterButtons = document.querySelectorAll(".filter-btn");
+
+    filterButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        filterButtons.forEach((btn) => btn.classList.remove("active"));
+        this.classList.add("active");
+        const category = this.dataset.category;
+        filterDreams(category);
+      });
+    });
+  }
+
+  function filterDreams(category) {
+    const filteredDreams =
+      category === "all"
+        ? dreams
+        : dreams.filter((dream) => dream.category === category);
+
+    if (list.classList.contains("active")) {
+      viewDreamList(filteredDreams);
+    } else {
+      viewDreamGrid(filteredDreams);
+    }
+  }
+
   async function fetchDreams() {
     try {
       const response = await fetch("dreams.json");
@@ -36,9 +63,9 @@ window.onload = async function () {
     }
   }
 
-  function viewDreamList() {
+  function viewDreamList(dreamsToShow) {
     list.innerHTML = "";
-    dreams.forEach((dream, index) => {
+    dreamsToShow.forEach((dream, index) => {
       const dreamItem = document.createElement("div");
       dreamItem.className = "dream-item-list";
       dreamItem.innerHTML = `
@@ -60,9 +87,9 @@ window.onload = async function () {
     });
   }
 
-  function viewDreamGrid() {
+  function viewDreamGrid(dreamsToShow) {
     grid.innerHTML = "";
-    dreams.forEach((dream, index) => {
+    dreamsToShow.forEach((dream, index) => {
       const dreamItem = document.createElement("div");
       dreamItem.className = "dream-item-grid";
       dreamItem.innerHTML = `
@@ -83,6 +110,7 @@ window.onload = async function () {
 
   // start
   dreams = await fetchDreams();
-  console.log(dreams);
-  viewDreamList();
+  viewDreamList(dreams);
+  listView.classList.add("active");
+  setupFilters();
 };
