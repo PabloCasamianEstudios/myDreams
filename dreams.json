@@ -11,14 +11,14 @@
       "title": "Casita",
       "description": "Quiero una casa de 2 plantas, con jardín y una piscina bien grandota. Ojalá en medio del monte, sin ruido ni gente.",
       "icon": "fa-house",
-      "category": "Family",
+      "category": "Life",
       "priority": "low"
     },
-     {
+    {
       "title": "Trabajar como Front-end",
       "description": "Ganarme la vida trabajando como desarrollador Front-end en una empresa que me guste.",
       "icon": "fa-computer",
-      "category": "Skills",
+      "category": "Life",
       "priority": "high"
     },
     {
@@ -46,10 +46,10 @@
       "title": "Aprender a hablar en Gorila",
       "description": "Aprender a hablar en idioma gorila.",
       "icon": "fa-tree",
-      "category": "Skills",
+      "category": "Funny",
       "priority": "medium"
     },
-     {
+    {
       "title": "Repostería",
       "description": "Quiero aprender a hacer dulces porque soy un puto gocho.",
       "icon": "fa-cheese",
@@ -60,15 +60,50 @@
       "title": "Perro salchicha",
       "description": "Perro salchicha gordo bachicha.",
       "icon": "fa-dog",
-      "category": "Family",
+      "category": "Life",
       "priority": "medium"
     },
     {
       "title": "Albina",
       "description": "Pelo blanco.",
       "icon": "fa-person-dress",
-      "category": "Family",
+      "category": "Life",
       "priority": "medium"
+    },
+    {
+      "title": "Ver mujer embarazada girar",
+      "description": "Ver a una mujer embaraza girar con la panza",
+      "icon": "fa-person-pregnant",
+      "category": "Funny",
+      "priority": "low"
+    },
+    {
+      "title": "Aprender a dibujar",
+      "description": "Aprender a dibujar bien, especialmente personajes y anatomía",
+      "icon": "fa-pencil-alt",
+      "category": "Skills",
+      "priority": "medium"
+    },
+    {
+      "title": "Crear una canción",
+      "description": "Componer y grabar mi propia canción original",
+      "icon": "fa-music",
+      "category": "Projects",
+      "priority": "high"
+    },
+    {
+      "title": "Mugiwaara Mashup Edit",
+      "description": "Crear un video edit para cada miembro de los Mugiwara (One Piece)",
+      "icon": "fa-video",
+      "category": "Projects",
+      "priority": "medium"
+    },
+    {
+      "title": "Boulder-Quest",
+      "description": "Proyecto Boulder-Quest - posiblemente un juego o aventura relacionada con escalada",
+      "icon": "fa-mountain",
+      "category": "Projects",
+      "priority": "high"
     }
   ]
 }
