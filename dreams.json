@@ -1,0 +1,46 @@
+{
+  "dreams": [
+    {
+      "title": "Casa",
+      "description": "Quiero una casa de 2 plantas, con jardín y una piscina bien grandota. Ojalá en medio del monte, sin ruido ni gente.",
+      "icon": "fa-house",
+      "category": "Family",
+      "priority": "low"
+    },
+    {
+      "title": "Aprender Skate",
+      "description": "Quiero aprender a ir en skate y dominar trucos básicos como ollies y kickflips.",
+      "icon": "fa-skating",
+      "category": "Skills",
+      "priority": "medium"
+    },
+    {
+      "title": "Andar con las manos",
+      "description": "Andar con las manos en lugar de con los pies.",
+      "icon": "fa-hands-bubbles",
+      "category": "Skills",
+      "priority": "medium"
+    },
+     {
+      "title": "Repostería",
+      "description": "Quiero aprender a hacer dulces porque soy un puto gocho.",
+      "icon": "fa-cake-slice",
+      "category": "Skills",
+      "priority": "medium"
+    },
+    {
+      "title": "Perro salchicha",
+      "description": "Perro salchicha gordo bachicha.",
+      "icon": "fa-dog",
+      "category": "Family",
+      "priority": "medium"
+    },
+    {
+      "title": "Albina",
+      "description": "Pelo blanco.",
+      "icon": "fa-person-dress",
+      "category": "Family",
+      "priority": "medium"
+    }
+  ]
+}
