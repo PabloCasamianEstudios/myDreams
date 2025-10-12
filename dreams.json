@@ -5,105 +5,321 @@
       "description": "Hacer front, back, side y kork flips.",
       "icon": "fa-arrows-rotate",
       "category": "Skills",
-      "priority": "high"
+      "priority": "high",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque es un truco muy guapo y molón. Solo imagínate entrando en una habitación haciendo un fucking flip. Sería apetepórico.",
+        "steps": [
+          "Aprender el Front Flip",
+          "Aprender el Side Flip",
+          "Aprender el Back Flip",
+          "Aprender el Cork Flip"
+        ],
+        "resources": [
+          {
+            "name": "Como hacer Side Flip",
+            "url": "https://www.youtube.com/watch?v=LWTpnU3AvkI"
+          }
+        ],
+        "progress": 25,
+        "difficulty": "medium",
+        "motivation": "⭐️⭐️⭐️⭐️⭐️",
+        "notes": "El front dominadísimo."
+      }
     },
     {
       "title": "Casita",
       "description": "Quiero una casa de 2 plantas, con jardín y una piscina bien grandota. Ojalá en medio del monte, sin ruido ni gente.",
       "icon": "fa-house",
       "category": "Life",
-      "priority": "low"
+      "priority": "low",
+      "status": "stand-by",
+      "details": {
+        "why": "Porque quiero vivir en un sitio tranquilo, rodeado de naturaleza, lejos del ruido y la contaminación de la ciudad. Me encantaría tener un jardín grande donde pueda plantar mis propias verduras y frutas, y una piscina para refrescarme en los días calurosos de verano. Además, una casa de 2 plantas me daría el espacio suficiente para tener una habitación para cada cosa que me gusta hacer. Sería un sueño hecho realidad.",
+        "steps": [
+          "Independizarme económicamente",
+          "Ahorrar dinero de entrada",
+          "Buscar la ubicación ideal",
+          "Conseguir un trabajo fijo",
+          "Buscar la casa perfecta",
+          "Hipotecarme hasta las trancas",
+          "Mudanza y decoración"
+        ],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️",
+        "notes": "Está complidado ser independiente en España, pero no imposible."
+      }
     },
     {
       "title": "Trabajar como Front-end",
       "description": "Ganarme la vida trabajando como desarrollador Front-end en una empresa que me guste.",
       "icon": "fa-computer",
       "category": "Life",
-      "priority": "high"
+      "priority": "high",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque me encanta crear cosas en la web y quiero dedicarme a ello profesionalmente. Me gustaría trabajar en un entorno creativo y dinámico, donde pueda aprender y crecer como desarrollador. Además, el desarrollo Front-end es principalmente menos estresante, y me gustaría conservar el pelo todo lo que pueda.",
+        "steps": [
+          "Dominar HTML, CSS y JavaScript",
+          "Aprender frameworks como React o Vue",
+          "Crear un portafolio con proyectos personales",
+          "Buscar ofertas de trabajo y aplicar",
+          "Prepararme para entrevistas técnicas",
+          "Conseguir el trabajo y seguir aprendiendo"
+        ],
+        "resources": [
+          {
+            "name": "Mi portfolio",
+            "url": "https://pablocasamianestudios.github.io/"
+          }
+        ],
+        "progress": 32,
+        "difficulty": "medium",
+        "motivation": "⭐️⭐️⭐️⭐️⭐️",
+        "notes": "Soy DAW y pronto DAM."
+      }
     },
     {
       "title": "Hacer Skate",
       "description": "Quiero aprender a ir en skate y dominar trucos básicos como ollies y kickflips.",
       "icon": "fa-person-snowboarding",
       "category": "Skills",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque por dentro algo me llama a hacer skate. Siento que es una forma de expresión y libertad. Además, me molaría hacer truquillos chulillos.",
+        "steps": [
+          "Comprar una tabla de skate adecuada",
+          "Comprar protecciones (casco, rodilleras, coderas)",
+          "Buscar un lugar adecuado para practicar",
+          "Aprender a mantener el equilibrio y patinar recto",
+          "Practicar giros y frenadas",
+          "Aprender trucos básicos como ollies y kickflips",
+          "Practicar regularmente y mejorar mis habilidades"
+        ],
+        "resources": [
+          {
+            "name": "Cómo elegir tabla de skate",
+            "url": "https://www.youtube.com/watch?v=EvsFGP4GpXc"
+          }
+        ],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️⭐️⭐️",
+        "notes": "Salir de la zona de confort es la base de mi progreso."
+      }
     },
     {
       "title": "Andar con las manos",
       "description": "Andar con las manos en lugar de con los pies.",
       "icon": "fa-hands-bubbles",
       "category": "Skills",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque el Pablo chikito quería andar con las manos, el Pablo grande se lo debe.",
+        "steps": [
+          "Mantener el pino",
+          "Practicar caminar con las manos",
+          "Pasar al sólido"
+        ],
+        "progress": 20,
+        "difficulty": "medium",
+        "motivation": "⭐️⭐️⭐️",
+        "notes": "Practicar en el roco entre bloques."
+      }
     },
     {
       "title": "Aprender a tocar el piano",
       "description": "El vituoso me llamaban.",
       "icon": "fa-keyboard",
       "category": "Skills",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "stand-by",
+      "details": {
+        "why": "Porque mi mamá me dice que tengo dedos de pianista, y me gustaría tocar el mashup de canciones de piano de kruger.",
+        "steps": [
+          "Que tita me devuelva el piano y llevarlo a casa",
+          "Aprender a tocar el piano"
+        ],
+        "resources": [
+          {
+            "name": "Objetivo",
+            "url": "https://www.youtube.com/watch?v=GBTEjwXB0GY"
+          }
+        ],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️"
+      }
     },
     {
       "title": "Aprender a hablar en Gorila",
       "description": "Aprender a hablar en idioma gorila.",
       "icon": "fa-tree",
       "category": "Funny",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "stand-by",
+      "details": {
+        "why": "No hacen falta explicaciones. Ugh ughuu guhuoug.",
+        "steps": ["Aprender a hablar en gorila"],
+        "resources": [
+          {
+            "name": "Tik Tok gorila language",
+            "url": "https://www.tiktok.com/@etymologynerd/video/7451024915291016491"
+          }
+        ],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️",
+        "notes": "Ugh uuhuu guhuoug."
+      }
     },
     {
       "title": "Repostería",
       "description": "Quiero aprender a hacer dulces porque soy un puto gocho.",
       "icon": "fa-cheese",
       "category": "Skills",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque soy un puto gocho y me encanta comer cosas dulces. Además, me gustaría sorprender a mis amigos y familiares con mis habilidades culinarias.",
+        "steps": [
+          "Aprender recetas básicas de repostería",
+          "Practicar hacer pasteles, galletas y otros dulces",
+          "Experimentar con diferentes ingredientes y técnicas",
+          "Compartir mis creaciones con amigos y familiares"
+        ],
+        "progress": 25,
+        "difficulty": "medium",
+        "motivation": "⭐️⭐️⭐️⭐️",
+        "notes": "Mi especialidad por ahora son los donuts, pero me gustaría probar tartas de queeesoooo."
+      }
     },
     {
       "title": "Perro salchicha",
       "description": "Perro salchicha gordo bachicha.",
       "icon": "fa-dog",
       "category": "Life",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "stand-by",
+      "details": {
+        "why": "Porque son graciosos y adorables. Además no me dan miedo, como el resto de bichos.",
+        "steps": [
+          "Tener estabilidad",
+          "Buscar un criador de confianza",
+          "Adoptar un perro salchicha"
+        ],
+        "progress": 0,
+        "difficulty": "low",
+        "motivation": "⭐️⭐️⭐️",
+        "notes": "Nombres: Moñogui."
+      }
     },
     {
       "title": "Albina",
       "description": "Pelo blanco.",
       "icon": "fa-person-dress",
       "category": "Life",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque los únicos rasgos que me atraen físicamente son los ojos claros y el pelo blanco.",
+        "steps": ["Conocer a alguien que parezca albino/a"],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️",
+        "notes": "La personalidad se ante pone a esto, simplemente son mis rasgos físicos favoritos."
+      }
     },
     {
       "title": "Ver mujer embarazada girar",
       "description": "Ver a una mujer embaraza girar con la panza",
       "icon": "fa-person-pregnant",
       "category": "Funny",
-      "priority": "low"
+      "priority": "low",
+      "status": "stand-by",
+      "details": {
+        "why": "Porque me da demasiada curiosidad ver la peonza humana.",
+        "steps": ["Conocer a una persona embarazada", "Pedirle que gire"],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️"
+      }
     },
     {
       "title": "Aprender a dibujar",
       "description": "Aprender a dibujar bien, especialmente personajes y anatomía",
       "icon": "fa-pencil-alt",
       "category": "Skills",
-      "priority": "medium"
-    },
-    {
-      "title": "Crear una canción",
-      "description": "Componer y grabar mi propia canción original",
-      "icon": "fa-music",
-      "category": "Projects",
-      "priority": "high"
+      "priority": "medium",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque me gustaría poder dibujar mis propias ideas de personajes, escenas e historias.",
+        "steps": [
+          "Practicar el dibujo de figuras humanas",
+          "Estudiar anatomía básica",
+          "Aprender a usar diferentes materiales de dibujo",
+          "Hacer ejercicios de dibujo regularmente",
+          "Crear un portafolio con mis mejores dibujos",
+          "Buscar feedback y mejorar mis habilidades",
+          "Explorar diferentes estilos y técnicas de dibujo",
+          "Participar en retos de dibujo online",
+          "Tomar clases o cursos de dibujo si es posible"
+        ],
+        "progress": 15,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️"
+      }
     },
     {
       "title": "Mugiwaara Mashup Edit",
       "description": "Crear un video edit para cada miembro de los Mugiwara (One Piece)",
       "icon": "fa-video",
       "category": "Projects",
-      "priority": "medium"
+      "priority": "medium",
+      "status": "stand-by",
+      "details": {
+        "why": "Porque One Piece es mi anime favorito, y me gustaría rendirle un homenaje a la altura a todos y cada uno de los mugiwara, cerrando el arco de ReYingYang y los edits de anime",
+        "steps": [
+          "Hacer un edit de Luffy",
+          "Hacer un edit de Zoro",
+          "Hacer un edit de Nami",
+          "Hacer un edit de Usopp",
+          "Hacer un edit de Sanji",
+          "Hacer un edit de Chopper",
+          "Hacer un edit de Robin",
+          "Hacer un edit de Franky",
+          "Hacer un edit de Brook",
+          "Hacer un edit de Jinbe"
+        ],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️"
+      }
     },
     {
       "title": "Boulder-Quest",
-      "description": "Proyecto Boulder-Quest - posiblemente un juego o aventura relacionada con escalada",
+      "description": "Proyecto Boulder-Quest",
       "icon": "fa-mountain",
       "category": "Projects",
-      "priority": "high"
+      "priority": "high",
+      "status": "in-progress",
+      "details": {
+        "why": "Porque quiero crear un juego de cartas de escalada para jugar con mis amigos en el rocódromo.",
+        "steps": [
+          "Definir el concepto, requisitos etc",
+          "Diseñar la interfaz",
+          "Desarrollar el juego",
+          "Probar y ajustar"
+
+        ],
+        "progress": 0,
+        "difficulty": "high",
+        "motivation": "⭐️⭐️⭐️",
+        "notes": "Proyecto a largo plazo, aprovechando la asignatura de diseño de interfaces en DAM. Utilizando REACT"
+      }
     }
   ]
 }

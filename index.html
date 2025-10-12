@@ -29,14 +29,25 @@
                     grid</button>
             </div>
 
+            <div class="header__search">
+                <input type="text" id="searchInput"
+                    placeholder="Buscar sueños..." class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+
+            <div class="dreams-counter">
+                <span id="dreamsCount">0</span> sueños encontrados
+            </div>
+
             <div class="header__filters">
                 <button class="filter-btn active"
                     data-category="all">Todos</button>
-                <button class="filter-btn" data-category="Skills">Skills</button>
+                <button class="filter-btn"
+                    data-category="Skills">Skills</button>
                 <button class="filter-btn" data-category="Life">Life</button>
-                <button class="filter-btn" data-category="Projects">Projects</button>
+                <button class="filter-btn"
+                    data-category="Projects">Projects</button>
                 <button class="filter-btn" data-category="Funny">Funny</button>
-
 
             </div>
         </header>
@@ -47,6 +58,14 @@
 
             <div class="dreams-grid" id="dreamsGrid"></div>
         </div>
+
+        <div id="dreamModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+        
 
     </body>
 </html>
