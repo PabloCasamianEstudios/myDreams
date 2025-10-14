@@ -100,8 +100,16 @@
         ],
         "resources": [
           {
-            "name": "Cómo elegir tabla de skate",
-            "url": "https://www.youtube.com/watch?v=EvsFGP4GpXc"
+            "name": "Skates completos Serlua",
+            "url": "https://www.serlua.com/shop/skate/completos/"
+          },
+          {
+            "name": "Skates completos skatedeluxe",
+            "url": "https://www.skatedeluxe.com/es/c/skateboards/skateboards-completos?eav=230#listing"
+          },
+          {
+            "name": "Skates completos euroskateshop",
+            "url": "https://euroskateshop.es/skateboard/komplette-skateboards/skateboards-completo.html"
           }
         ],
         "progress": 0,
@@ -313,7 +321,6 @@
           "Diseñar la interfaz",
           "Desarrollar el juego",
           "Probar y ajustar"
-
         ],
         "progress": 0,
         "difficulty": "high",
